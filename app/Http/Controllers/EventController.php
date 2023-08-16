@@ -19,7 +19,7 @@ class EventController extends Controller
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function CreateEvents()
     {
         $user_id=$request->header('id');
         return Events::create([
